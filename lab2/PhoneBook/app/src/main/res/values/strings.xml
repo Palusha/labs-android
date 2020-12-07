@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Phone Book</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone number</string>
+    <string name="add_user">Add user</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="home">home</string>
+    <string name="email">Email</string>
+</resources>

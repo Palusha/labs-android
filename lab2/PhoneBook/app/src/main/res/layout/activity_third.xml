@@ -1,0 +1,88 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_weight="0.1"
+            android:text="@string/username"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/userNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.1"
+            android:text="@string/phone_number"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/phoneNumberEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_weight="0.1"
+            android:text="@string/email"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/email"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:onClick="saveUserInfo"
+            android:textColor="@android:color/widget_edittext_dark" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:onClick="backToMainActivity"
+            android:textColor="@android:color/widget_edittext_dark" />
+    </TableRow>
+
+</TableLayout>

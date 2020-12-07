@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">kotlin_3lab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="add_user">Add user</string>
+    <string name="edit">Edit</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="main_page">Main page</string>
+    <string name="about_content">Simple app to store you contacts. \nAndroid version 6.0. \nMade by Andrushkiv Pavlo.</string>
+    <string name="terms_content">Terms of use
+        \n\nWelcome to Phone Book!
+        \n\nThese terms of use apply to your use Phone Book and contain information about the Service
+    Phone Book which is set out below. When you add a user to Phone Book or use Phone Book you accept these terms.
+        \n\n*Develop and use technologies that help us continually provide services to our growing community.
+    \n\n*Research and innovation
+    \n\n*Promoting a positive, comprehensive and safe environment.</string>
+    <string name="share">Share</string>
+    <string name="finish">Finish</string>
+</resources>
